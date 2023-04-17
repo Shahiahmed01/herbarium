@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <!-- Website title -->
+    <title>Digital Herbarium</title>
+    <!-- Website icon -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.svg" />
+    <!-- Bootstrap 5 styles -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/main.css" />
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-row">
+        <div class="header-top">
+          <div class="container d-flex justify-content-between my-3">
+            <div class="logo">
+              <a href="../index.html">
+                <img class="logo-image" src="/images/logo-back.png" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Navbar -->
+        <div class="navi">
+          <div class="container">
+            <div class="nav-items">
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="../index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    aria-current="page"
+                    href="/pages/catalogue.html"
+                    >Catalogue</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    href="#"
+                    role="button"
+                    aria-expanded="false"
+                    >Specimens</a
+                  >
+                  <ul class="dropdown-menu dropback">
+                    <li>
+                      <a class="dropdown-item" href="/pages/herbarium.html"
+                        >Herbarium</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="/pages/seeds.html"
+                        >Seeds</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/pages/news.html">News</a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    aria-current="page"
+                    href="/pages/about.html"
+                    >Contact us</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Section Main Search System -->
+    <section class="h-100 gradient-form" style="background-color: #eee">
+      <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-xl-10">
+            <div class="card text-black">
+              <div class="row g-0">
+                <div
+                  class="col-lg-6 d-flex justify-content-center welcomeLogin"
+                >
+                  <div class="text-white py-5 p-md-5">
+                    <h5 class="">Welcome</h5>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="card-body p-md-5 mx-md-4">
+                    <div class="text-center">
+                      <img
+                        src="/images/logo-back.png"
+                        alt=""
+                        style="width: 150px"
+                      />
+                    </div>
+
+                    <form>
+                      <h5 class="mt-5 text-center">
+                        Please create a new account!
+                      </h5>
+
+                      <div class="form-outline mt-5">
+                        <label class="form-label" for="form2Example11"
+                          >Username</label
+                        >
+                        <input
+                          type="email"
+                          id="form2Example11"
+                          class="form-control"
+                          placeholder="Phone number or email address"
+                        />
+                      </div>
+
+                      <div class="form-outline mb-4">
+                        <label class="form-label" for="form2Example22"
+                          >Password</label
+                        >
+                        <input
+                          type="password"
+                          id="form2Example22"
+                          class="form-control"
+                          placeholder="Password"
+                        />
+                      </div>
+
+                      <div class="text-center pt-1 mb-5">
+                        <a href="./login.html">
+                          <button class="btn btn-outline-danger" type="button">
+                            Create account
+                          </button></a
+                        ><br />
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3 bg-light text-center">
+      <div class="container my-3">
+        <span class="text-muted"
+          >Copyright © 2023
+          <a href="https://www.biocenter.kz/en/" style="text-decoration: none">
+            National Center for Biotechnology.</a
+          ><br />
+          All Rights Reserved</span
+        >
+      </div>
+    </footer>
+    <!-- Bootstrap Script  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
